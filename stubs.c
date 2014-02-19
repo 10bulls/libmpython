@@ -245,3 +245,4 @@ _DEFUN (strchr, (s1, i),
     return (char *)s;
   return NULL;
 }
+

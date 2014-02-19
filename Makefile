@@ -61,12 +61,14 @@ SRC_OBJS := $(SRC_C:.c=.o)
 #
 MPTEENSY_SRC_C = \
 	lcd.c \
-	memzip.c \
 	usb.c \
-	lexerfatfs.c \
-	lexermemzip.c \
 	usart.c \
 	led.c \
+
+#	memzip.c \
+#	lexermemzip.c \
+#	lexerfatfs.c \
+
 
 #
 # NOTE: The following are using modified versions located in the libmpython project
@@ -162,6 +164,7 @@ $(BUILD)/%.c.o: $(STM_SRC)/%.c
 
 clean:
 	-rd /q /s $(subst /,\,$(BUILD))
+	-del libraries\*.a
 
 test:
 #	@echo $(LIB_OBJS)

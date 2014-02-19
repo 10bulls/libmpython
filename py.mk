@@ -34,6 +34,7 @@ PY_O_BASENAME = \
 	lexerstr.o \
 	lexerunix.o \
 	parse.o \
+	parsehelper.o \
 	scope.o \
 	compile.o \
 	emitcommon.o \
@@ -50,6 +51,7 @@ PY_O_BASENAME = \
 	strtonum.o \
 	obj.o \
 	objarray.o \
+	binary.o \
 	objbool.o \
 	objboundmeth.o \
 	objcell.o \
