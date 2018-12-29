@@ -30,9 +30,7 @@ teensy31py.build.linkoption1=-mthumb
 #
 teensy31py.build.linkoption2=-nodefaultlibs
 teensy31py.build.linkoption3=-L"C:\devt\arduino\libmpython\libraries"
-#teensy31py.build.linkoption3=-L"C:\devt\arduino\micropython_vs\build"
 teensy31py.build.linkoption4=-lmpython
-#teensy31py.build.linkoption5=-L"C:\devt\arduino\arduino-1.0.5\hardware\tools\arm-none-eabi\lib\gcc\arm-none-eabi\4.7.2\thumb2"
 teensy31py.build.linkoption5=-lgcc
 #
 # The following lines are needed for the Arduino IDE...
@@ -49,8 +47,6 @@ teensy31py.build.command.objcopy=arm-none-eabi-objcopy
 teensy31py.build.command.objdump=arm-none-eabi-objdump
 teensy31py.build.command.size=arm-none-eabi-size
 teensy31py.build.core=teensy3
-#teensy31py.build.default.link.options=-L C:\devt\arduino\arduino-1.0.5\hardware\tools\arm-none-eabi\arm-none-eabi\lib -lmpython
-#teensy31py.build.default.link.options=-Os -Wl,--gc-sections -mcpu=cortex-m4 -L"%SOURCE_BUILD_PATH%\teensy31py" -L"C:\devt\arduino\arduino-1.0.5\hardware\tools\arm-none-eabi\arm-none-eabi\lib" -o "%SOURCE_BUILD_PATH%\%SKETCH%.elf"
 teensy31py.build.noarchive=true
 teensy31py.build.elide_constructors=true
 teensy31py.build.gnu0x=true
