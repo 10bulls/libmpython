@@ -235,7 +235,7 @@ int pfenv_printf(const pfenv_t *pfenv, const char *fmt, va_list args) {
             case 'g':
             {
                 // This is a very hacky approach to printing floats. Micropython
-                // uses %g when using print, and I just wanted to see somthing
+                // uses %g when using print, and I just wanted to see something
                 // usable. I expect that this will be replaced with something
                 // more appropriate.
                 char dot = '.';

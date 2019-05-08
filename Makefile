@@ -97,7 +97,7 @@ LIB_OBJS := $(addprefix $(BUILD)/, $(SRC_OBJS)) $(MP_OBJS)
 # $(sort $(var)) removes duplicates
 #
 # The net effect of this, is it causes the objects to depend on the
-# object directories (but only for existance), and the object directories
+# object directories (but only for existence), and the object directories
 # will be created if they don't exist.
 OBJ_DIRS = $(sort $(dir $(LIB_OBJS))) $(BUILD)/py/
 $(LIB_OBJS): | $(BUILD) $(OBJ_DIRS)
