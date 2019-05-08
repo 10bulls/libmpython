@@ -1,4 +1,4 @@
-Copy 'mpython' folder to the arduino libaries folder.
+Copy 'mpython' folder to the arduino libraries folder.
 
 Add the contents of 'boards.txt' to the existing 'arduino/hardware/teensy/boards.txt'
 (DO NOT REPLACE THE EXISTING ONE!)

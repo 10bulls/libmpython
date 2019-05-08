@@ -3,7 +3,7 @@ libmpython
 This project is intended to produce a static library version of micropython for use with Arduino build environments
 such as the Arduino IDE, Visual Micro, (others?).
 
-The main target is currenly the Teensy 3.1 ARM development board.
+The main target is currently the Teensy 3.1 ARM development board.
 http://www.pjrc.com/teensy/
 
 Main micropython site:
@@ -24,7 +24,7 @@ The Makefile is designed for use with GNU make (such as MinGW mingw32-make.exe).
 The ARM build tools are contained in the Teensduino package:
 https://www.pjrc.com/teensy/teensyduino.html
 
-Teensyduino 1.18 Release Candidate #2 or later is recomended for > 128k (50%) programs with teensy loader 
+Teensyduino 1.18 Release Candidate #2 or later is recommended for > 128k (50%) programs with teensy loader 
 (hex unreadable errors)
 http://forum.pjrc.com/threads/24796-Teensyduino-1-18-Release-Candidate-2-Available
 

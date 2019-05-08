@@ -1,4 +1,4 @@
-# default settings; can be overriden in main Makefile
+# default settings; can be overridden in main Makefile
 
 ifndef PY_SRC
 PY_SRC = ../py
